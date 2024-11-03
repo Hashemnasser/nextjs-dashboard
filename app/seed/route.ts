@@ -102,7 +102,7 @@
  }
 
 export async function GET() {
-  
+  console.log('dddd')
    try {
      await client.sql`BEGIN`;
      await seedUsers();
